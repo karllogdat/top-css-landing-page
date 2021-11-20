@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header {
+    color: #f9faf8;
+    background-color: #1f2937;
+    font-size: 24px;
+    padding: 24px 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-weight: 700;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.body-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 48px 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.hero .left-text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    word-wrap: normal;
+    gap: 8px;
+}
+
+.hero .left-text .main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero .left-text .body-text {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.hero .left-text button.hero-button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero .right-content {
+    display: flex;
+    flex: 1;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.information {
+    background-color: #f9faf8;
+    padding: 24px 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.information .information-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.information .panel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.information .panel-container .image {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: auto;
+    width: 200px;
+}
+
+.information .panel-container .image .image-container {
+    height: 200px;
+    width: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+}
+
+.information .panel-container .image .image-info {
+    color: #1f2937;
+    word-wrap: normal;
+    text-align: center;
+}
